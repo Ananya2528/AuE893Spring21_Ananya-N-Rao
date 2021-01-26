@@ -1,0 +1,2 @@
+tutorial
+-DCATKIN_DEVEL_PREFIX=/home/annie/AuE893/devel -DCMAKE_INSTALL_PREFIX=/home/annie/AuE893/install -G Unix Makefiles
