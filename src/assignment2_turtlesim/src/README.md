@@ -10,7 +10,7 @@ as soon as this file is executed the turtlesim_node will start moving automatica
 
 ![square_openloop](https://user-images.githubusercontent.com/78004516/105803380-5e1c8980-5f6b-11eb-90ab-fed0081f1b48.png)
 
-[! Turtle-moving-in-a-square-openloop](https://github.com/Ananya2528/AuE893Spring21_Ananya-N-Rao/tree/master/src/assignment2_turtlesim/src/videos/square_openloop.gif)
+[! Turtle-moving-in-a-square-openloop](https://github.com/Ananya2528/AuE893Spring21_Ananya-N-Rao/tree/master/src/assignment2_turtlesim/src/videos/Square_openloop.gif)
 
 3. square_closedloop.py has the sourse code to command the turtlesim_node to go in a square path
 The turtlesim will go in a 3*3 square which has pre-defined coordinates.
