@@ -1,0 +1,8 @@
+prefix=/home/annie/github/AuE893Spring21_Ananya-N-Rao/devel
+
+Name: Assignment2_TurtleSim
+Description: Description of Assignment2_TurtleSim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
