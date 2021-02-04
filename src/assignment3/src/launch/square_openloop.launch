@@ -1,0 +1,4 @@
+<launch>
+
+  <node name="square" pkg="assignment3" type="square_openloop.py" required="true" output="screen"/>
+</launch>
