@@ -391,11 +391,23 @@ assignment3_turtlebot3_BINARY_DIR:STATIC=/home/annie/AuE893/build/assignment3_tu
 //Value Computed by CMake
 assignment3_turtlebot3_SOURCE_DIR:STATIC=/home/annie/AuE893/src/assignment3_turtlebot3
 
+//Value Computed by CMake
+assignment6_trackingandfollowing_BINARY_DIR:STATIC=/home/annie/AuE893/build/assignment6_trackingandfollowing
+
+//Value Computed by CMake
+assignment6_trackingandfollowing_SOURCE_DIR:STATIC=/home/annie/AuE893/src/assignment6_trackingandfollowing
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for cv_bridge.
+cv_bridge_DIR:PATH=/opt/ros/noetic/share/cv_bridge/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/noetic/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/annie/AuE893/build/gtest/googlemock
@@ -444,10 +456,13 @@ gtest_hide_internal_symbols:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/noetic/lib/librostime.so
+lib:FILEPATH=/opt/ros/noetic/lib/libroscpp_serialization.so
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
+
+//The directory containing a CMake configuration file for rosconsole.
+rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
 
 //The directory containing a CMake configuration file for roscpp_serialization.
 roscpp_serialization_DIR:PATH=/opt/ros/noetic/share/roscpp_serialization/cmake
@@ -461,8 +476,14 @@ rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/noetic/share/sensor_msgs/cmake
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_msgssensor_msgs.
+std_msgssensor_msgs_DIR:PATH=std_msgssensor_msgs_DIR-NOTFOUND
 
 //Value Computed by CMake
 tutorial_BINARY_DIR:STATIC=/home/annie/AuE893/build/tutorial
@@ -618,7 +639,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

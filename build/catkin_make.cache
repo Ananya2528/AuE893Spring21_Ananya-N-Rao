@@ -1,2 +1,2 @@
-assignment3:assignment3_turtlebot3:tutorial
+assignment3:assignment6_trackingandfollowing:tutorial
 -DCATKIN_DEVEL_PREFIX=/home/annie/AuE893/devel -DCMAKE_INSTALL_PREFIX=/home/annie/AuE893/install -G Unix Makefiles
